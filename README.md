@@ -25,3 +25,9 @@ Ce soir, je pense surtout bosser sur une feuille A4, pliée en neuf, en trois su
 * verticalement pour le code commun et les Queries
 
 Si je tiens bon d'ici cette vue du champ de bataille, peut-être que je tente ce soir de faire le header.
+
+## Header
+
+J'ai vaincu ! Ça n'a pas été une partie d eplaisir, mais ma méthode porte ses fruits. Seulement, je ne maitrise pas encore l'écriture "instinctive" d'un menu comme Henrique nous l'a montré, mon truc de base étant de faire un div avec vlà les classes pour les p, et de display flex l'ensemble, en précisant les gap. 
+
+Là, j'ai dû employer une autre méthode plus expérimentale pour moi, et grandement m'inspirer du boulot de Henrique, ce qui me frustre. De plus, ce code me donne l'impression d'être plus lourd, avec plus de portes ouvertes aux instructions contraires, ou écrites au mauvais emplacement. J'en parlerai avec lui :blush:
