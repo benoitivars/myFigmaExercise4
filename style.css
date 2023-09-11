@@ -1,0 +1,41 @@
+/*RESET*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFFDFA;
+}
+
+.container {
+    max-width: 1110px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+/* COMMON CODE */
+
+/* SPECIFIC QUERIES */
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
