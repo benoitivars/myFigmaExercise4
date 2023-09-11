@@ -24,4 +24,4 @@ Ce soir, je pense surtout bosser sur une feuille A4, pliée en neuf, en trois su
 * horizontalement pour mes trois sections
 * verticalement pour le code commun et les Queries
 
-Si je tiens bon d'ici cette vue du champ de bataille, 
+Si je tiens bon d'ici cette vue du champ de bataille, peut-être que je tente ce soir de faire le header.
