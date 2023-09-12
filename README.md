@@ -47,3 +47,7 @@ Ce qui m'a beaucoup aidé, c'est le conseil de Yassine, d'utilliser un simple fi
 Premier point : j'ai pris le taureau par les cornes, ai jarté toutes les mentions des fontes sans discrimination, originales et edondantes, pour directement aller chercher sur Google FOnts (qui avait sauvé mes préférences) ce dont j'ai besoin. J'ai du CSS à cheacker et qui me prendra bien assez la tête comme ça que pour le faire victimiser par des link à des polices de caractère.
 
 Maintenant, le reste du mergin, pour le CSS a été moins relou que prévu ! Quelques copiés-colés au bon endroit et ça tient la route !
+
+## Correction Header
+
+J'ai bien alligné le header comme je devais et voulais, en relisant le code de Henrique de l'exercice FIgma 3 !
