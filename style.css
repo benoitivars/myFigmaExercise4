@@ -20,6 +20,7 @@ a {
 
 body {
     background-color: #FFFDFA;
+    font-family: Inter;
 }
 
 .container {
@@ -29,26 +30,25 @@ body {
 }
 
 /* COMMON CODE */
-
-body .container {
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
 }
 
-body .container .menu {
+header .container .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row; 
 }
 
-body .container .menu ul {
+header .container .menu ul {
     display: flex;
 }
 
-body .container .menu ul li a {
+header .container .menu ul li a {
     font-family: Inter;
     font-size: 15px;
     font-style: normal;
@@ -58,41 +58,200 @@ body .container .menu ul li a {
     margin-right: 40px;
 }
 
-body .container .menu ul li:last-child {
+header .container .menu ul li:last-child {
     margin-right: 0;
 }
 
+main .container {
+    margin-top: 20px;
+    display: grid;
+    gap:30px;
+}
+.une {
+
+    display : grid;
+    gap:30px;
+}
+
+.lireplus{
+    background-color:#F15D51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.button {
+    color: #FFFDFA;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 4.375px;
+}
+
+aside {
+    background-color: #00001A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    color:#E9AA52;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    color: #FFFDFA;
+}
+
+.passide {
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color : #C5C6CE;
+}
+
+.ligne {
+    width: 302px;
+    height: 1px;
+    flex-shrink: 0;
+    background-color:#5E607A;
+}
 /* SPECIFIC QUERIES */
 
 @media screen and (max-width: 768px) {
-    body .container {
+    header .container {
         margin-top: 28px;
     }
-    body .container .W {
+    header .container .W {
         width: 44.977px;
         height: 28px;
         flex-shrink: 0;
     }
-    body .container .menu {
+    header .container .menu {
         display: none;
     }
-    body .container .Group {
+    header .container .Group {
         width: 40px;
         height: 17px;
         flex-shrink: 0;
     }
+    main .container {
+        grid-template-columns: 1fr;
+    }
+    h1 {
+        color: #00001A;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 40px; 
+    }
+    .text {
+        color: #5E607A;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    aside {
+    padding: 24px 20px 24px 20px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    h3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .passide {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
+
 @media screen and (min-width: 768px) {
-    body .container {
+    header .container {
         margin-top: 72px;
     }
-    body .container .W {
+    header .container .W {
         width: 64.092px;
         height: 39.9px;
         flex-shrink: 0;
     }
-    body .container .Group {
+    header .container .Group {
         display: none;
+    }
+    main .container {
+        grid-template-columns: 2fr 1fr;
+        justify-items: center;
+    }
+    .une {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .imagealaune{
+        grid-row: 1;
+        grid-column: 1/span 2;
+    }
+    .titraille {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    h1 {
+        color: #00001A;
+        font-family: Inter;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 56px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        grid-row: 2;
+        grid-column: 2;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 10px;
+    }
+    .chapo {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .text {
+        color: #5E607A;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    aside {
+        padding: 32px 24px 32px 24px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 32px;
     }
 }

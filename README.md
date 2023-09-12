@@ -31,3 +31,13 @@ Si je tiens bon d'ici cette vue du champ de bataille, peut-être que je tente ce
 J'ai vaincu ! Ça n'a pas été une partie d eplaisir, mais ma méthode porte ses fruits. Seulement, je ne maitrise pas encore l'écriture "instinctive" d'un menu comme Henrique nous l'a montré, mon truc de base étant de faire un div avec vlà les classes pour les p, et de display flex l'ensemble, en précisant les gap. 
 
 Là, j'ai dû employer une autre méthode plus expérimentale pour moi, et grandement m'inspirer du boulot de Henrique, ce qui me frustre. De plus, ce code me donne l'impression d'être plus lourd, avec plus de portes ouvertes aux instructions contraires, ou écrites au mauvais emplacement. J'en parlerai avec lui :blush:
+
+## Mergin header et main
+
+Première expérience de merging pour ma part, qui pour ma aprt ne fut pas aussi dure que redouté.
+
+Une grande difficulté que j'ai eu, est de me rendre compte que je n'ai aps eu les mêmes pratiques sur les trois branches pour organiser mon code CSS. 
+
+Ensuite, une autre difficulté fut de naviguer dans le correcteur de conflits, qui pour un projet aussi gros (enfin, gros pour mon expérience, ma remarque doit probablement faire ricanner des devs chevronnés), ne fut pas chose facile : de minuscules fenêtres, des centaines de lignes de code et VSCode qui me dit en substance "vas-y copain, je te regarde faire !".
+
+Ce qui m'a beaucoup aidé, c'est le conseil de Yassine, d'utilliser un simple ficher .txt à l'arrache à côté où coller les bouts de codes corrects. Maintenant, ça a un petit côté "maroufleur du code", mais ça marche... pour l'instant !
