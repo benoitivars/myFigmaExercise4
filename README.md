@@ -41,3 +41,9 @@ Une grande difficulté que j'ai eu, est de me rendre compte que je n'ai aps eu l
 Ensuite, une autre difficulté fut de naviguer dans le correcteur de conflits, qui pour un projet aussi gros (enfin, gros pour mon expérience, ma remarque doit probablement faire ricanner des devs chevronnés), ne fut pas chose facile : de minuscules fenêtres, des centaines de lignes de code et VSCode qui me dit en substance "vas-y copain, je te regarde faire !".
 
 Ce qui m'a beaucoup aidé, c'est le conseil de Yassine, d'utilliser un simple ficher .txt à l'arrache à côté où coller les bouts de codes corrects. Maintenant, ça a un petit côté "maroufleur du code", mais ça marche... pour l'instant !
+
+## Mergin main (header + body) et section
+
+Premier point : j'ai pris le taureau par les cornes, ai jarté toutes les mentions des fontes sans discrimination, originales et edondantes, pour directement aller chercher sur Google FOnts (qui avait sauvé mes préférences) ce dont j'ai besoin. J'ai du CSS à cheacker et qui me prendra bien assez la tête comme ça que pour le faire victimiser par des link à des polices de caractère.
+
+Maintenant, le reste du mergin, pour le CSS a été moins relou que prévu ! Quelques copiés-colés au bon endroit et ça tient la route !
