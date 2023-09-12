@@ -34,7 +34,7 @@ section .container {
     display: flex;
 }
 
-section .container .about1 {
+.container .about1 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
